@@ -1,0 +1,43 @@
+.form{
+    border: 2px dashed #047bf8;
+  position: relative;
+  top: 50%;
+  margin-top:50px;
+  width: 100%;
+  height: 200px;
+  
+}
+.form p{
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-family: Arial;
+}
+.form input{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  margin-left:-50%;
+  background:red;
+}
+.selection{
+    margin:5px;
+    cursor:pointer;
+}
+.selection i{
+    color:#047bf8;
+    padding-bottom:5px;
+}
+#result{
+    width:100%;
+}
+.thumbnail{
+    float:left;
+    width: 100px;
+    margin: 10px;    
+}
+
